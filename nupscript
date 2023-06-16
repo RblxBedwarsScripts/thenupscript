@@ -55,3 +55,10 @@ tab2:AddButton({
         loadstring(game:HttpGet('https://raw.githubusercontent.com/RblxBedwarsScripts/FlameXPrivate/main/FlameXPrivate4Roblox'))();
     end;
 });
+
+tab2:AddButton({
+    Text    = "Load Rektsky";
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/8pmX8/rektsky4roblox/main/mainscript.lua"))();
+    end;
+});
