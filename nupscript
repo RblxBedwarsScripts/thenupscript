@@ -48,3 +48,10 @@ tab2:AddButton({
         loadstring(game:HttpGet('https://raw.githubusercontent.com/Storm99999/Tenacity4Roblox/main/script.lua'))();
     end;
 });
+
+tab2:AddButton({
+    Text    = "Flame X Private";
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/RblxBedwarsScripts/FlameXPrivate/main/FlameXPrivate4Roblox'))();
+    end;
+});
